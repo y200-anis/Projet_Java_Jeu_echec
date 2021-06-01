@@ -8,7 +8,6 @@ public class Tour extends Piece implements Mouvement{
 
 	boolean _1erTour;
 	
-	
 	public Tour(int x, int y, Couleur c) {
 		super(x, y, c);
 		_1erTour=true;
@@ -26,7 +25,6 @@ public class Tour extends Piece implements Mouvement{
 		
 	}
 
-	@Override
 	public List<Position> getMouvementPossible() {  // sera lancé a chaque fois que le pion est bouger
 
 		List<Position> mouvementPossible = new ArrayList<Position>(); 
