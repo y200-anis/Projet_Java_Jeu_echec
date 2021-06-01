@@ -2,7 +2,7 @@ package echec;
 import java.util.ArrayList;
 import java.util.List;
 /**
-@ Ait Taouit Yanis
+@author Ait Taouit Yanis
 */
 public class Reine extends Piece implements Mouvement{
 
