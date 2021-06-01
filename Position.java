@@ -54,26 +54,17 @@ public class Position {
 		setY(y);
 	}
 
-
-
-	@Override
 	public String toString() {
 		
 		return ("[x="+x+" ,y="+y+"]");
 	}
 
-
-
-	@Override
 	protected Position clone() {
 		
 		Position temp =new Position(this.getX(),this.getY());
-		
-		
+
 		return temp;
 	}
-	
-	
 	
 	protected boolean inBounds()
 	{		
