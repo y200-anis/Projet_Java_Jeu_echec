@@ -1,5 +1,6 @@
 package echec;
 import java.util.*;
+
 public class Cavalier  extends Piece implements Mouvement {
 
 	  public Cavalier(int x, int y, Couleur c) {
