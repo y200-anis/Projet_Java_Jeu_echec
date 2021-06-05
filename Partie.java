@@ -2,7 +2,7 @@ package echec;
 import java.util.ArrayList;
 import java.util.Scanner;
 /**
- * @ author Ait Taouit Yanis 
+ *@author Ait Taouit Yanis 
  */
 public class Partie {
 	private Joueur joueurActuel;
