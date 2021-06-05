@@ -1,7 +1,7 @@
 package echec;
 import java.util.*;
 /**
-* @author Yanis Ait Taouit
+* @author David Sidoun
 */
 public class Cavalier  extends Piece implements Mouvement {
 
