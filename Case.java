@@ -1,6 +1,6 @@
 package echec;
 /**
- * @author David Sidoun
+ * @author Yanis Ait Taouit
  */
 public class Case {
 	private Position position;
