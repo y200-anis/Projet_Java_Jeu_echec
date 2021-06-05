@@ -1,6 +1,6 @@
 package echec;
 /**
- * @ David Sidoun
+ *@author David Sidoun
  */
 import java.util.ArrayList;
 import java.util.List;
