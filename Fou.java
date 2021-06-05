@@ -1,6 +1,8 @@
 package echec;
 import java.util.*;
-
+/**
+* @author David Sidoun
+*/
 public class Fou extends Piece implements Mouvement{
 
 	public Fou(int x, int y, Couleur c) {
