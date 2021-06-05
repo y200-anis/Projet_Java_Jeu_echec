@@ -1,7 +1,7 @@
 package echec;
 import java.util.*;
 /**
- * @ David Sidoun
+ * @author David Sidoun
  */
 
 public abstract class Piece implements Mouvement {
