@@ -1,6 +1,6 @@
 package echec;
 /**
- * @ Ait Taouit Yanis
+ * @author Ait Taouit Yanis
  */
 public class Executeur {
 	public static void main(String[] args) {
