@@ -100,10 +100,10 @@ public class Partie {
 
 	private void echecMat_init()
 	{
-		Tour t=new Tour(3,2,Couleur.BLACK);
-		Tour t3=new Tour(2,3,Couleur.BLACK);
+		Tour t=new Tour(8,1,Couleur.BLACK);
+		Tour t3=new Tour(8,2,Couleur.BLACK);
 		Tour t2=new Tour(2,7,Couleur.BLACK);
-		Roi r=new Roi(2,1,Couleur.WHITE);
+		Roi r=new Roi(1,1,Couleur.WHITE);
 		Roi r2=new Roi(2,5,Couleur.BLACK);
 	}
 
