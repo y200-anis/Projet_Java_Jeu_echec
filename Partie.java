@@ -240,7 +240,7 @@ public class Partie {
 		//Roi.getRoiCouleur(jc).isEchec())
 
 		boolean temp2=false;
-		while (!temp2)										//si erreur sur pos arriv� tout recommencer
+		while (!temp2)										//si erreur sur pos arriver tout recommencer
 		{
 			boolean temp=false;
 			while (!temp)									//tant que la pos de depart est fausse recommencer
@@ -249,7 +249,7 @@ public class Partie {
 				{
 					System.out.println(j.tab);
 					depart=getEntree(1);						//recupere du user la pos de depart
-					selectionnee=joueurActuel.bougerT1(depart);	//une piece alli� est � cette position
+					selectionnee=joueurActuel.bougerT1(depart);	//une piece allie est à cette position
 				}
 				else
 				{
@@ -263,8 +263,8 @@ public class Partie {
 			}
 
 			temp=false;
-			arrivee=getEntree(2);							//recuperer pos arriv�e
-			temp2=joueurActuel.bougerT2(selectionnee,depart,arrivee);	//deplace pion et mange pion ennemie si pr�sent
+			arrivee=getEntree(2);							//recuperer pos arrivée
+			temp2=joueurActuel.bougerT2(selectionnee,depart,arrivee);	//deplace pion et mange pion ennemie si present
 
 		}
 		Case caseTemp=plateau.getCase(depart.getX(), depart.getY());
