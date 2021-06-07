@@ -22,7 +22,6 @@ public class Partie {
 		listeJoueurs.add(j2);
 		initialisation();
 
-
 		j1.updateTab();
 		j2.updateTab();
 		fini=false;
